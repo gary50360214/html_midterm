@@ -58,12 +58,6 @@
 				var	$course = $(this),
 					$content = $course.find('.content');
 
-				// Poptrox.
-				/*
-					$content.poptrox({
-						usePopupCaption: true
-					});
-*/
 				// Tabs.
 					$course.each( function() {
 
