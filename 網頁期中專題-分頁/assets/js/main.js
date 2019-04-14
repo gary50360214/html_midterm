@@ -113,7 +113,7 @@
 
 			$("#submit").on("click", function(){
 			
-				alert("我們已收到你的通知");
+				alert("我們已收到你的訊息");
 			});
 
 	});
