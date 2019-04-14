@@ -59,10 +59,11 @@
 					$content = $course.find('.content');
 
 				// Poptrox.
+				/*
 					$content.poptrox({
 						usePopupCaption: true
 					});
-
+*/
 				// Tabs.
 					$course.each( function() {
 
@@ -107,6 +108,12 @@
 					});
 
 
+			});
+
+
+			$("#submit").on("click", function(){
+			
+				alert("我們已收到你的通知");
 			});
 
 	});
