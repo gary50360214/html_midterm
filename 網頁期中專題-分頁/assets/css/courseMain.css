@@ -1455,6 +1455,11 @@
 		position: absolute;
 
 	}
+
+	/*test*/
+	#test{
+		overflow-x: auto;
+	}
 	/* Menu */
 	
 	#nav {
@@ -1521,7 +1526,7 @@
 
 		}
 
-		@media s reen and (max-width: 480px) {
+		@media screen and (max-width: 480px) {
 
 			#main {
 				padding: 2em 1em 0.1em 1em;

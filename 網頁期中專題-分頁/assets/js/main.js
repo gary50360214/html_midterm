@@ -52,11 +52,11 @@
 		// Scrolly.
 			$('.scrolly').scrolly();
 
-		// Gallery.
-			$('.gallery').each(function() {
+		// course.
+			$('.course').each(function() {
 
-				var	$gallery = $(this),
-					$content = $gallery.find('.content');
+				var	$course = $(this),
+					$content = $course.find('.content');
 
 				// Poptrox.
 					$content.poptrox({
@@ -64,7 +64,7 @@
 					});
 
 				// Tabs.
-					$gallery.each( function() {
+					$course.each( function() {
 
 						var $this = $(this),
 							$tabs = $this.find('.tabs a'),
